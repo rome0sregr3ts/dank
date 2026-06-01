@@ -90,10 +90,11 @@ const questions = [
 },
 {
     text: "8. will you date me?",
-    options: ["(yes)", "(yes but im making you sweat first)", "(no <3)"]
+    options: ["(yes)", "(yes but im making you sweat first)"]
 }
-];
 
+];
+    
 let currentQuestion = 0;
 
 const questionEl = document.getElementById("question");
